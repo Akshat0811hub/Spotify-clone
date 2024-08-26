@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#content-main {
+    overflow: hidden;
+}
+
+header {
+    background-color: #1DB954;
+    height: 5vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user-profile {
+    display: flex;
+    align-items: center;
+}
+
+#content-main h1{
+    color: black;
+
+}
+
+#user-profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.login-btn button {
+    padding: 2vh;
+    font-size: 1vw;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+main {
+    padding: 20px;
+}
+
+#playlist {
+    margin-top: 20px;
+}
+
+#playlists-container {
+    padding-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.playlist-item {
+    background-color: #282828;
+    height: 35vh;
+    width: 10vw;
+    border-radius: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.playlist-item img {
+    padding-top: 10%;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.playlist-item h3 {
+
+    font-size: 1.5vw;
+}
+
+#search-btn {
+    font-size: 1vw;
+    height: 20px;
+
+}
+
+#search-input{
+    height: 20px;
+}
+
+#user-name{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.result-item{
+    display: inline-block;
+    padding: 1vh;
+    
+}
+.result-item img{
+    height: 40vh;
+}
